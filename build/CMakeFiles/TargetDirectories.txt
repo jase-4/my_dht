@@ -1,0 +1,3 @@
+/Users/jase/Desktop/dht_try/build/CMakeFiles/dht_node.dir
+/Users/jase/Desktop/dht_try/build/CMakeFiles/edit_cache.dir
+/Users/jase/Desktop/dht_try/build/CMakeFiles/rebuild_cache.dir

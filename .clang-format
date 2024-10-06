@@ -1,0 +1,13 @@
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 120
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+BraceWrapping:
+  AfterNamespace: false   # Prevents a newline after namespace declaration
+  AfterClass: false       # Same for classes
+  AfterFunction: false    # Same for functions
+  AfterStruct: false      # Same for structs
+  BeforeElse: true

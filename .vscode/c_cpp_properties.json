@@ -1,0 +1,27 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",                // Path to your header files
+                "/opt/homebrew/Cellar/openssl@3/3.3.1/include" // OpenSSL headers
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++", // Adjust if needed
+            "cStandard": "c11",
+            "cppStandard": "c++23", // Match the C++ standard specified in CMake
+            "intelliSenseMode": "macos-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/include",
+                    "/opt/homebrew/Cellar/openssl@3/3.3.1/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ]
+}
